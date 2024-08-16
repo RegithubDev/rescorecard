@@ -635,7 +635,9 @@ nav.header .header-container {
 
 @media (min-width: 768px) {
     .main-content {
-        margin-left:var(--main-sidebar-width)
+        
+        margin-left: 7rem;
+        width : 76rem
     }
 
     .has-min-sidebar .main-content {
@@ -774,7 +776,7 @@ code.inline-code {
 .card {
     --tw-shadow: 0 3px 10px 0 rgb(48 46 56/6%);
     --tw-shadow-colored: 0 3px 10px 0 var(--tw-shadow-color);
-    background-color: #fff;
+    background-color: #ffff;
     border-radius: .5rem;
     box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
     color: #64748b;
@@ -8996,7 +8998,7 @@ button.gridjs-sort-asc,button.gridjs-sort-desc {
 }
 
 .bg-primary {
-    background-color: #4f46e5
+    background-color: #da0d14
 }
 
 .bg-primary-focus {
@@ -9529,7 +9531,8 @@ button.gridjs-sort-asc,button.gridjs-sort-desc {
 }
 
 .pb-8 {
-    padding-bottom: 2rem
+    padding-bottom: 2rem;
+    margin-left: 7rem
 }
 
 .pl-4 {
@@ -9821,7 +9824,7 @@ button.gridjs-sort-asc,button.gridjs-sort-desc {
 }
 
 .text-primary {
-    color: #4f46e5
+    color: #da0d14
 }
 
 .text-secondary {
@@ -12110,7 +12113,8 @@ button.gridjs-sort-asc,button.gridjs-sort-desc {
     }
 
     .lg\:col-span-8 {
-        grid-column: span 8/span 8
+        grid-column: span 8/span 8;
+        width:30rem
     }
 
     .lg\:col-span-9 {
@@ -12297,7 +12301,7 @@ button.gridjs-sort-asc,button.gridjs-sort-desc {
     }
 
     .lg\:text-2xl {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 2rem
     }
 

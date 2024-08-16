@@ -622,27 +622,27 @@ z-rescorecard: 1000;
             <div>
               <ol class="steps is-vertical line-space [--size:2.75rem] [--line:.5rem]">
                 <li class="step space-x-4 pb-12 before:bg-slate-200 dark:before:bg-navy-500">
-                  <div class="step-header mask is-hexagon bg-primary text-white dark:bg-accent">
+                 <div class="step-header mask is-hexagon bg-slate-200 text-slate-500 dark:bg-navy-500 dark:text-navy-100">
                     <i class="fas fa-tint text-base"></i>
                   </div>
                   <div class="text-left">
                     <p class="text-xs text-slate-400 dark:text-navy-300">
                       Step 1
                     </p>
-                    <h3 class="text-base font-medium text-primary dark:text-accent-light">
+                    <h3 class="text-base font-medium ">
                       Fresh Water 
                     </h3>
                   </div>
                 </li>
                 <li class="step space-x-4 pb-12 before:bg-slate-200 dark:before:bg-navy-500">
-                  <div class="step-header mask is-hexagon bg-slate-200 text-slate-500 dark:bg-navy-500 dark:text-navy-100">
+                   <div class="step-header mask is-hexagon bg-primary text-white dark:bg-accent">
                     <i class="fas fa-lightbulb text-base"></i>
                   </div>
                   <div class="text-left">
                     <p class="text-xs text-slate-400 dark:text-navy-300">
                       Step 2
                     </p>
-                    <h3 class="text-base font-medium">Electrical Energy (within the facility)</h3>
+                    <h3 class="text-base font-medium text-primary dark:text-accent-light"">Electrical Energy (within the facility)</h3>
                   </div>
                 </li>
                 <li class="step space-x-4 pb-12 before:bg-slate-200 dark:before:bg-navy-500">
@@ -656,7 +656,7 @@ z-rescorecard: 1000;
                     <h3 class="text-base font-medium">Thermal Energy (within the facility)</h3>
                   </div>
                 </li>
-                 <li class="step space-x-4 pb-12 before:bg-slate-200 dark:before:bg-navy-500">
+                <li class="step space-x-4 pb-12 before:bg-slate-200 dark:before:bg-navy-500">
                   <div class="step-header mask is-hexagon bg-slate-200 text-slate-500 dark:bg-navy-500 dark:text-navy-100">
                     <i class="fab fa-xbox text-base"></i>
                   </div>
@@ -667,10 +667,9 @@ z-rescorecard: 1000;
                     <h3 class="text-base font-medium">Development/Compliance</h3>
                   </div>
                 </li>
-                
-                <li class="step space-x-4 pb-12 before:bg-slate-200 dark:before:bg-navy-500">
+                <li class="step space-x-4 before:bg-slate-200 dark:before:bg-navy-500">
                   <div class="step-header mask is-hexagon bg-slate-200 text-slate-500 dark:bg-navy-500 dark:text-navy-100">
-                    <i class="fas fa-battery-full text-base"></i>
+                    <i class="fa-solid fa-check text-base"></i>
                   </div>
                   <div class="text-left">
                     <p class="text-xs text-slate-400 dark:text-navy-300">
@@ -679,8 +678,6 @@ z-rescorecard: 1000;
                     <h3 class="text-base font-medium">Confirm</h3>
                   </div>
                 </li>
-               
-               
               </ol>
             </div>
           </div>
@@ -689,19 +686,19 @@ z-rescorecard: 1000;
               <div class="border-b border-slate-200 p-4 dark:border-navy-500 sm:px-5">
                 <div class="flex items-center space-x-2">
                   <div class="flex h-7 w-7 items-center justify-center rounded-lg bg-primary/10 p-1 text-primary dark:bg-accent-light/10 dark:text-accent-light">
-                    <i class="fas fa-tint"></i>
+                    <i class="fas fa-lightbulb"></i>
                   </div>
                   <h4 class="text-lg font-medium text-slate-700 dark:text-navy-100">
-                    Fresh Water 
+                  Electrical Energy 
                   </h4>
                 </div>
               </div>
               <div class="space-y-4 p-4 sm:p-5">
                 <label class="block">
-                  <span>Total Quantity of Waste Handled</span><span style="color:red;">*</span>
+                  <span>Electricity Consumption from Grid</span><span style="color:red;">*</span>
                   <span class="relative mt-1.5 flex">
                     <input class=" margin mt-2 form-input peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" 
-					placeholder="Eg: Font Awsome Tags" type="text"
+					placeholder="Electricity Consumption in Kwh" type="text"
 					>
                   </span>
                 </label>
@@ -709,19 +706,19 @@ z-rescorecard: 1000;
     margin-left: -21px;
 ">
                 <label class="block">
-                  <span>Total Net Fresh Water Consumption</span><span style="color:red;">*</span>
+                  <span>Electricity Consumption from Renewable (Solar) Source</span><span style="color:red;">*</span>
                   <span class="relative mt-1.5 flex" style="margin-left: 2px; width: 27.5rem;">
                     <input class=" margin mt-2 form-input peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" 
-					placeholder="Enter Total Consumption in KL" type="text"
+					placeholder="Enter Source Consumption in Kwh" type="text"
 					>
                   </span>
                 </label>
                  <div class="space-y-4 p-4 sm:p-5" style="margin-left: -18px;width: 30rem;">
                 <label class="block">
-                  <span>Specific Fresh Water Consumption</span><span style="color:red;">*</span>
+                  <span>Specific Electricity Consumption</span><span style="color:red;">*</span>
                   <span class="relative mt-1.5 flex">
                     <input class=" margin mt-2 form-input peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent" 
-					placeholder="Specific Consumption KL" type="text"
+					placeholder="Specific Consumption in Kwh/Ton" type="text"
 					>
                   </span>
                 </label>
@@ -737,7 +734,7 @@ z-rescorecard: 1000;
                 
                   
 				  </a>
-                 <a href="http://localhost:8080/rescorecard/views/dashboardAdmin4.jsp" class="btn space-x-2 bg-slate-150 font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">                 
+                 <a href="http://localhost:8080/rescorecard/views/dashboardAdmin5.jsp" class="btn space-x-2 bg-slate-150 font-medium text-slate-800 hover:bg-slate-200 focus:bg-slate-200 active:bg-slate-200/80 dark:bg-navy-500 dark:text-navy-50 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">                 
                     <span>Next</span>
                   
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
